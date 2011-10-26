@@ -36,15 +36,15 @@ Then in your JavaScript somewhere call :
 Gravity!
 ------------
 
-Let's say you have an image of an apple, and the apple is in the center of the image. In that case, you want the image to say roughly centered on the page. Don't worry, it'll work great for you.
+Let's say you have an image of an apple, and the apple is in the center of the image. In that case, you want the image to stay roughly centered on the page. Don't worry, this'' work great for you out of the box.
 
-What if the apple is in the top left corner though? Well, you might want the image to be anchored in the top left instead of in the center. For you, you can add the `data-gravity` attribute to the `stretcher` div.  
+What if the apple is in the top left corner though? Well, you might want the image to be anchored in the top left instead of in the center. In this case, you can set the "gravity". To do so, just add the `data-gravity` attribute to the `stretcher` div.  
 
     <div class="stretcher" data-gravity="0x0">
       ...
     </div>
 
-The gravity is formatted `{gravity vertical}x{gravity horizontal}` where each measurement is between 0 (all the way to the top or left) and 1 (all the way to the bottom or right). With lopsided photo, it's best to fiddle with this until you get the results you want. 
+The gravity is formatted `{gravity vertical}x{gravity horizontal}` where each measurement is between 0 (all the way to the top or left) and 1 (all the way to the bottom or right). With a lopsided photo, it's best to fiddle with this until you get the results you want. 
 
 Standalone Usage
 ------------
